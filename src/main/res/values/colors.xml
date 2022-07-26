@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <!--    <color name="purple_500">#FF6200EE</color>-->
+
+    //시스템
+    <color name="purple_500">#ffffff</color>
+
+    <!--    <color name="purple_700">#FF3700B3</color>-->
+    //액션바
+    <color name="purple_700">#F8ECDE</color>
+
+    <color name="teal_200">#A0937D</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="app_color1">#68D1CC</color>
+    <color name="app_color2">#ADECF8F3</color>
+    <color name="app_color3">#68A7AD</color>
+    <color name="app_color4">#747474</color>
+    <color name="app_color5">#C7F4EF</color>
+    <color name="app_color6">#94B49F</color>
+    <color name="dark_green">#12686C</color>
+    <color name="green">#4BB3AE</color>
+
+
+    <color name="col1">#94B49F</color>
+    <color name="col2">#CEE5D0</color>
+    <color name="col3">#FCF8E8</color>
+    <color name="col4">#57726D</color>
+    <color name="col5">#819A8A</color>
+    <color name="col6">#CDBBA7</color>
+    <color name="col7">#ECB390</color>
+    <color name="col8">#8E806A</color>
+    <color name="col9">#E7D4B5</color>
+    <color name="col10">#C2B092</color>
+    <color name="col11">#CDBBA7</color>
+    <color name="col12">#DAD0C2</color>
+    <color name="col13">#3F5149</color>
+
+
+    <color name="a1">#F5B461</color>
+    <color name="a2">#F6AB6C</color>
+    <color name="a3">#FFCD3C</color>
+    <color name="a4">#FBC687</color>
+    <color name="a5">#FF9234</color>
+    <color name="a6">#F4EA8E</color>
+    <color name="a7">#B0E0A8</color>
+    <color name="a8">#F5B461</color>
+
+    <color name="b1">#7692E4</color>
+    <color name="b2">#A9E6E6</color>
+    <color name="b3">#76D3FF</color>
+    <color name="b4">#7BC7FA</color>
+    <color name="b5">#2E94B9</color>
+    <color name="b6">#70A1D7</color>
+    <color name="b7">#3B4A6B</color>
+    <color name="b8">#AFC5FF</color>
+
+    <color name="main">#FFC05E</color>
+
+    <color name="no">#FFBCC6</color>
+    <color name="yes">#B5D9E2FF</color>
+</resources>

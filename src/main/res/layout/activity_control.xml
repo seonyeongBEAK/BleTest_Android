@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="2dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:src="@drawable/logo_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@color/white"
+                android:gravity="left|center_vertical"
+                android:fontFamily="@font/cafe24shiningstar"
+                android:textSize="20sp"
+                android:text="로봇 코딩 교육 | 아두정복"
+                android:textColor="#5D534A" />
+            <!--            <com.airbnb.lottie.LottieAnimationView-->
+            <!--                android:layout_width="60dp"-->
+            <!--                android:layout_height="60dp"-->
+            <!--                app:lottie_rawRes="@raw/lf20_o3gnw8xq"-->
+            <!--                app:lottie_autoPlay="true"-->
+            <!--                app:lottie_loop="true" />-->
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="15dp"
+            android:orientation="vertical">
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="60dp"-->
+            <!--                android:layout_gravity="center_horizontal"-->
+            <!--                android:orientation="horizontal">-->
+
+
+            <!--                <ImageView-->
+            <!--                    android:id="@+id/imageView"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:layout_marginStart="10dp"-->
+            <!--                    android:background="@drawable/ic_baseline_bluetooth_24" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/text_color"-->
+            <!--                    android:layout_width="5dp"-->
+            <!--                    android:layout_height="5dp"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:layout_marginLeft="20dp"-->
+            <!--                    android:background="#60CBF3EB" />-->
+
+            <!--                <Button-->
+            <!--                    android:id="@+id/btn_connect"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:layout_marginStart="20dp"-->
+            <!--                    android:layout_marginEnd="10dp"-->
+            <!--                    android:backgroundTint="#F4F1D5"-->
+            <!--                    android:text="connect"-->
+            <!--                    android:textColor="#C67B1A"-->
+            <!--                    android:textStyle="bold" />-->
+            <!--            </LinearLayout>-->
+
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                app:lottie_rawRes="@raw/car"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="false" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="준비중인 서비스입니다."/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/btn_unconnect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#00FFFFFF"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="50dp"
+                        android:elevation="10dp"
+                        android:scaleType="fitCenter"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_baseline_bluetooth_disabled_24"
+                        android:textColor="#C67B1A"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/text_color"
+                        android:layout_width="5dp"
+                        android:layout_height="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:background="#00FFFFFF" />
+
+                    <ImageButton
+                        android:id="@+id/btn_connect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#00FFFFFF"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:elevation="10dp"
+                        android:scaleType="fitCenter"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_baseline_bluetooth_24"
+                        android:textColor="#C67B1A"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_unbottom"
+                android:layout_gravity="center"
+                android:elevation="15dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btn_go"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#F1EFE2"
+                    android:src="@drawable/ic_baseline_keyboard_arrow_up_24"
+                    android:elevation="20dp"
+                    android:text="GO"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_left"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30dp"
+                        android:backgroundTint="#F8F3C1"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_left_24"                    android:elevation="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="control"
+                        android:textColor="#5E6263"
+                        android:textSize="11sp" />
+
+                    <ImageButton
+                        android:id="@+id/btn_right"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:backgroundTint="#F8F3C1"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"                    android:elevation="20dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btn_back"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#F1EFE2"
+                    android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+                    android:elevation="20dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_Z"
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="right"
+                        android:backgroundTint="#DDFF9800"
+                        android:elevation="20dp"
+                        android:text="Z"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btn_X"
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#DDFF9800"
+                        android:elevation="20dp"
+                        android:text="X"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical|right"
+                android:background="@drawable/logo_title"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/text" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="left|center_vertical"
+                android:text=" 대표명 : 윤영철 \t 회사명 : 아두정복 \n 전화번호 : 010-2772-7870 \t 이메일 : yoution57@gmail.com \n Web: www.아두정복.com"
+                android:textColor="@color/col13"
+                android:textSize="9sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
